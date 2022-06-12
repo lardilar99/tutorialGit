@@ -20,9 +20,10 @@ namespace WindowsFormsApplication1
         private void button1_Click(object sender, EventArgs e)
         {
             //Console.WriteLine("Escribio:" + this.richTextBox1.Text);
-            Form2 unform = new Form2();
-            unform.vble = this.richTextBox1.Text; 
-            unform.Show();
+            //Form2 unform = new Form2();
+            //unform.vble = this.richTextBox1.Text; 
+            //unform.Show();
+            System.Windows.Forms.MessageBox.Show("usted escribió: " + this.richTextBox1.Text);
         }
     }
 }
